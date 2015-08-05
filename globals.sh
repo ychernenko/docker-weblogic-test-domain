@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+IMAGE_VERSION=1.0.0
+IMAGE_REPOSITORY=ychernenko/weblogic-test-domain
+IMAGE_NAME=$IMAGE_REPOSITORY:$IMAGE_VERSION
+ADMIN_SERVER_CONTAINER=admin-server
+#NODE_MANAGER_CONTAINER=node-manager
+NODE_MANAGER_CONTAINER=weblogic
